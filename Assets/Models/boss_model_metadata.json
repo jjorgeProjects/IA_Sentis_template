@@ -1,0 +1,28 @@
+{
+  "feature_columns": [
+    "avg_session_minutes",
+    "aim_accuracy",
+    "dodge_success_rate",
+    "aggression_score",
+    "exploration_score",
+    "healing_usage_per_min",
+    "deaths_per_hour",
+    "melee_ratio",
+    "ranged_ratio",
+    "parry_ratio",
+    "boss_fail_streak",
+    "upgrade_power_score"
+  ],
+  "class_names": [
+    "Berserker",
+    "Juggernaut",
+    "Sniper",
+    "Summoner",
+    "Trickster"
+  ],
+  "input_shape": [
+    1,
+    12
+  ],
+  "target_column": "boss_type"
+}
